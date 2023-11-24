@@ -1,0 +1,48 @@
+html {
+  background-color: blue;
+  color: white;
+}
+
+.team {
+  font-family: "Arial", sans-serif;
+}
+
+.team p {
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-bottom: auto;
+  font-family: "Arial", sans-serif;
+}
+
+button, .clrbtn {
+  background-color: white;
+  color: blue;
+  border: 2px white solid;
+  border-radius: 2px;
+  font-weight: bold;
+  transition-duration: .25s;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+  border: 2px white solid;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+* {
+  text-align: center;
+}
+
+.clrbtn:hover {
+  background-color: red;
+  color: white;
+  border: 2px red solid;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
